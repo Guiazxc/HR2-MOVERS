@@ -1,0 +1,381 @@
+body{
+  background-color: #007bff11;
+}
+
+      .header{
+      background-color: #fcfdff;
+      position: fixed;
+      top: 0px;
+      left: 232px;
+      right: 0px;
+      height: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      display: flex;
+      align-items: left;
+      justify-content: space-between;
+      color: #0046fa;
+      font-family: system-ui;
+      font-weight: bold;
+      font-size: 19px;
+      text-align: left;
+    }
+    .header img {
+      height: 30px; 
+      width: auto;
+      margin-right: 10px;
+    }
+
+    .container {
+      width: 230px;
+      height: 100vh;
+      background-color: #fcfdff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 0px;
+      box-sizing: border-box;
+      margin-left: 0px;
+      overflow-y: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+  }
+  .container::-webkit-scrollbar {
+      display: none;
+  }
+  
+  .photo img{
+      margin-top: 40px;
+      height: 70px;
+      width: auto;
+      align-items: center;
+      margin-left: 15px;
+  }
+  
+  .dashboardSection {
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 15px;
+  }
+  .dashboard{
+      display: block;
+      color: #16259a;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 14px;
+      text-align: left;
+      font-family: system-ui;
+      font-weight: 500;
+      align-items: center;
+      margin-left: 10px;
+  }
+  .dashboard:hover {
+      background-color: #007aff26;
+      color: black;
+  }
+  .dashboard:active{
+      background-color: #007aff80;
+      color: black;
+  }
+  
+  .recruitmentSection{
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+  .recruitment{
+      display: block;
+      color: #16259a;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: left;
+      margin-left: 10px;
+  }
+  .recruitment:hover {
+      background-color: #7091e6;
+      color: black;
+  }
+  .recruitment:active{
+      background-color: #3d52a0;
+      color: black;
+  }
+  
+  .performanceSection {
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+  
+  .performance{
+      display: block;
+      color: #16259a;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: left;
+      margin-left: 10px;
+  }
+  
+  .performance:hover {
+      background-color: #7091e6;
+      color: black;
+  }
+  .performance:active{
+      background-color: #3d52a0;
+      color: black;
+  }
+  
+  .trainingSection {
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+  .m-trainAndDev{
+      display: block;
+      color: #16259a;
+      text-align: left;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: bold;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+  }
+  
+  .buttonContainer {
+      background-color: #007aff26;
+      position: fixed;
+      top: 50.5px;
+      left: 232px;
+      right: 2px;
+      height: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #00000080;
+  }
+  
+  .tp-btn3train{
+      color: #000000;
+      font-weight: bold;
+      flex-grow: 1;
+      padding-top: 0px;
+      font-size: 14px;
+      cursor: pointer;
+      font-family: system-ui;
+      padding-left: 1px;
+      padding-right: 2px;
+      text-decoration: none;
+      width: 30px;
+      text-align: center;
+  }
+  .tp-btn3train:hover{
+      color: black;
+      font-weight: 700;
+      height: 30px;
+  }
+  .tp-btn3train:active{
+      background-color: #007aff26;
+      color: black;
+  }
+  
+  .Logout {
+      align-items: center;
+      padding: 5px;
+      margin-bottom: 5px;
+      margin-top: 200px;
+  
+  }
+  .logoutbtn{
+      display: block;
+      color: #0046Fa;
+      text-align: center;
+      font-family: system-ui;
+      padding-bottom: 5px;
+      padding-top: 0px;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: left;
+      margin-left: 10px;
+  }
+  .logoutbtn:hover {
+      background-color: #007aff26;
+      color: black;
+  }
+  .logoutbtn:active{
+      background-color: #007aff80;
+      color: black;
+  }
+
+  .buttonContainer {
+    background-color: #007aff26;
+    position: fixed;
+    top: 50.5px;
+    left: 232px;
+    right: 2px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #00000080;           
+}
+
+.tp-btn3train{
+  color: #000000;
+  font-weight: bold;
+  flex-grow: 1;
+  padding-top: 0px; 
+  font-size: 14px;
+  cursor: pointer;
+  font-family: system-ui;
+  padding-left: 1px;
+  padding-right: 2px;
+  text-decoration: none;
+  width: auto;
+  text-align: center;
+}
+.tp-btn3train:hover{
+  color: black;
+  font-weight: 700;
+  height: 30px;
+}
+.tp-btn3train:active{
+  background-color: #007aff26;
+      color: black;
+}
+
+.btn1train, .btn2train, .btn3train {
+  flex-grow: 1;
+  padding-top: 0px; 
+  font-size: 14px;
+  cursor: pointer;
+  color: #0046Fa;
+  font-family: system-ui;
+  font-weight: 500;
+  padding-left: 1px;
+  padding-right: 2px;
+  text-decoration: none;
+  width: auto;
+  text-align: center;
+}
+
+.btn1train:hover, .btn2train:hover, .btn3train:hover{
+color: white;
+font-weight: 700;
+height: 30px;
+}
+.btn1train:active, .btn2train:active, .btn3train:active{
+background-color:#007aff26;
+color: black;
+}
+
+              .searchBar{
+                font-size: 13px;
+                height: 31px;
+                width: auto;
+                margin-left: 200px;
+                border-radius: 2px;
+                border-width: 0.5px;
+                border-color: #00000067;
+                box-shadow: inset 1px 2px 5px #8697c41d;
+                flex-grow: 2;
+                padding-left: 5px;
+                border-radius: 5px;
+              }
+              .searchBtn{
+                height: 35px;
+                width: 40px;
+                background-size: 30px 30px;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-width: 0.5px;
+                border-color: #00000067;
+                box-shadow: inset 1px 2px 5px #8697c41d;
+                margin-right: 50px;
+                flex-shrink: 0;
+                cursor: pointer;
+                border-radius: 3px;
+              }
+              table {
+                margin-top: 120px;
+                margin-left: 236px;
+                width: calc(80% - 1px);
+                border-collapse: collapse;
+                font-family: Arial, sans-serif;
+            }
+            
+            th, td {
+                padding: 12px 15px;
+                text-align: center;
+                border: 1px solid #000000a9;
+            }
+           
+            th {
+                background-color: #a6c4e5;
+                color: #333;
+                font-weight: bold;
+            }
+
+            td{
+              background-color: #f0f2f8;
+            }
+            
+     
+            tbody tr:hover {
+                background-color: #f5f6f9;
+            }
+            
+            button {
+                padding: 5px 10px;
+                margin-right: 5px;
+                border: none;
+                cursor: pointer;
+                border-radius: 3px;
+            }
+            
+           
+
+            @media (max-width: 600px) {
+                table {
+                    width: 100%;
+                    font-size: 14px;
+                }
+            
+                th, td {
+                    padding: 8px;
+                }
+            
+                button {
+                    padding: 3px 6px;
+                }
+            }
+
+
+    
